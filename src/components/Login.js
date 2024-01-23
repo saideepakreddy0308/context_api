@@ -8,6 +8,7 @@ function Login() {
   // we need to destruct the context object to get the state and the dispatch function.
   // const { state, dispatch } = React.useContext(LoginContext);
   const {setUsername, setShowprofile} = useContext(LoginContext);
+  // But here, we are only using the state, so we can destructure the state only. I mean setUsername and setShowprofile are destructured from the state.
 
 
 

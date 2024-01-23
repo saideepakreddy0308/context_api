@@ -28,6 +28,7 @@ function App() {
         {/* Here, value represents states we are gonna show in the app.And, we can pass any number of states. */}
         
         {showprofile ? <Profile /> : <Login />}
+        {/* Here, it means if showprofile is true, then render the Profile component, else render the Login component. */}
       </LoginContext.Provider>
     </div>
   );
